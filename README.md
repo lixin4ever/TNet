@@ -1,2 +1,20 @@
 # TNet
-Source code for our ACL paper "[Transformation Networks for Target-Oriented Sentiment Classification](https://arxiv.org/abs/1805.01086)"
+**T**ransformation **Net**works for Target-Oriented Sentiment Classification. (Currently, code is only available upon request)
+
+## Requirements
+* Python 3.6
+* Theano 0.9.0
+* numpy 1.13.1
+* pygpu 0.6.9
+
+## Running
+```
+THEANO_FLAGS="device=cuda0, optimizer=fast_compile" python main.py -ds_name [YOUR_DATASET_NAME] -connection_type [AS|LF]
+```
+
+## Environment
+* OS: REHL Server 6.4 (Santiago)
+* GPU: NVIDIA GTX 1080
+* CUDA: 9.2
+* cuDNN: v7.1.4
+
