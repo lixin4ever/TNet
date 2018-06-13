@@ -23,7 +23,7 @@ THEANO_FLAGS="device=cuda0, optimizer=fast_compile" python main.py -ds_name [YOU
 ## Citation
 If the code is used in your research, please cite our paper as follows:
 ```
-@article{li2018transformation,
+@inproceedings{li2018transformation,
   title={Transformation Networks for Target-Oriented Sentiment Classification},
   author={Li, Xin and Bing, Lidong and Lam, Wai and Shi, Bei},
   booktitle={ACL},
