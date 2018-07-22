@@ -27,6 +27,7 @@ If the code is used in your research, please star our repo and cite our paper as
   title={Transformation Networks for Target-Oriented Sentiment Classification},
   author={Li, Xin and Bing, Lidong and Lam, Wai and Shi, Bei},
   booktitle={ACL},
+  pages={946--956},
   year={2018}
 }
 ```
